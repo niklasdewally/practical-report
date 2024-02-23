@@ -1,0 +1,29 @@
+project:
+  output-dir: _output
+
+date-format: full
+highlight-style: haddock
+link-citations: true
+link-bibliography: true
+links-as-notes: true # links as footnotes
+notes-after-punctuation: true
+number-sections: true
+toc: true
+
+resource-path: ['.','figures']
+bibliography: references.bib  
+csl: ieee-with-url.csl
+
+format:
+  pdf:
+    pdf-engine: pdflatex
+    # use quarto's latexmk wrapper to auto install missing packages
+    latex-auto-mk : true
+
+    papersize: a4
+    geometry: a4paper
+
+    documentclass: scrartcl
+    header-includes: |
+      \usepackage{charter}
+    classoption: headings=standardclasses,headings=big,

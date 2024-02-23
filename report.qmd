@@ -1,0 +1,32 @@
+---
+title: My practical 
+subtitle: Module
+author: 'STUDENT ID' 
+date: today
+---
+
+
+# Introduction {#sec-intro}
+
+# Design {#sec-design}
+
+# Implementation {#sec-impl}
+
+# Testing {#sec-testing}
+
+# Evaluation {#sec-evaluation}
+
+# Conclusion {#sec-conclusion}
+
+# References 
+
+::: {#refs}
+:::
+
+\newpage
+
+# Appendix A: Some stuff {.unnumbered #sec-appendix-some-stuff}
+
+
+<!-- vim: tw=80 
+-->
